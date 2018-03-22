@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Quicksand');
+		body {
+			font-family: 'Quicksand', sans-serif;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+<div id="display">
+	<div id="background" class="bg" >
+		<div id="title" class="name" contenteditable="true"></div>
+		<div id="description" class="content" contenteditable="true"></div>
+
+	</div>
+</div>
+<div id="controls">
+	<button id="menu" class="button" onclick="expandMenu()">Menu</button><br>
+	<input type="text" placeholder="url" id="url"><br>
+	<input type="text" placeholder="Title" id="inptitle"><br>
+	<input type="text" placeholder="Description" id="inpdes"><br>
+	<input type="color" id="color" onchange="changeColor()">
+	<button id="add" class="button" onclick="createBG()">+</button>
+	<!-- <button id="edit" onclick="edit()">Edit</button> -->
+</div>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
